@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+
+ 
+
+nav{
+    margin-top: 40px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+nav button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: background-color 0.5s ease ;
+}
+
+nav button:hover{
+    color: orange;
+    
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    gap: 25px;
+}
+
+.Homeimg{
+    width: 25%;
+}
+
+.Homep{
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.Homespan{
+    color: orange;
+}
+
+.Homebutton{
+    border: none;
+    font-size: 2rem;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+.Homebutton:hover{
+    background-color: orange;
+}
+
+.Contactp{
+    color: white;
+    font-size: 1.4rem;
+}
+
+.Contactp:first-child{
+    width: 30%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.IconsContainer{
+    display: flex;
+    gap: 30px;
+}
+
+.GridContainer{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    column-gap: 100px;
+    row-gap: 90px;
+     
+   
+}
+
+.GridItem{
+    border-left: 4px solid rgb(236, 230, 230);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: max-content;
+    
+}
+
+
+
+.Top{
+    display: flex;
+    align-items: end;
+    justify-content: flex-start;
+    gap: 120px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+
+    
+}
+
+.Top h2:first-child{
+    color: orange;
+}
+
+.Top h2:last-child{
+    color: white;
+}
+
+.GridItem span{
+    color: white;
+    margin-left: 10px;
+    
+    
+}
